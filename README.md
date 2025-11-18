@@ -1,7 +1,7 @@
 # ESP32 BackEnd Telemetría - Node js
 
 Este proyecto establece un sistema completo de adquisición de datos usando un **ESP32 con sensor DHT22**, que envía información de **temperatura** y **humedad** hacia un **servidor en Node.js**.  
-Los datos se almacenan en **MongoDB**, cumpliendo los requisitos de telemetría solicitados.
+Los datos se almacenan en **MongoDB**.
 
 ---
 
