@@ -17,7 +17,6 @@ Los datos se almacenan en **MongoDB**, cumpliendo los requisitos de telemetría 
 - API con:
   - `POST /api/telemetria/guardar-telemetria` → Guarda lectura
   - `GET /api/telemetria/listar-telemetria` → Regresa todos los registros
-  - `GET /api/telemetria/ultima-lectura` → Última lectura
 - ESP32 envía datos cada **3 minutos**.
 
 ---
