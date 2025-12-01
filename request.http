@@ -1,0 +1,17 @@
+POST http://localhost:3100/api/telemetria/register-user HTTP/1.1
+Content-Type: application/json
+
+{
+    "email": "erwin@gmail.com",
+    "username": "Erwinsito",
+    "password": "moreess"
+}
+
+###
+POST http://localhost:3100/api/telemetria/login HTTP/1.1
+Content-Type: application/json
+
+{
+    "email": "erwin@gmail.com",
+    "password": "moreess"
+}
