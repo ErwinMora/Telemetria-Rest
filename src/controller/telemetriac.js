@@ -6,6 +6,8 @@ exports.guardarDatos = async (req, res) => {
         console.log("Datos recibidos del ESP32:", datos);
         const nuevo = await Telemetria.create(datos);
         res.status(201).json({ ok: true, mensaje: "Datos almacenados correctamente", data: nuevo });
+        console.log("Se guardaron los datos en Mongo");
+        
     } catch (error) {
         console.error("Error al guardar datos:", error);
         res.status(500).json({ ok: false, mensaje: "Error en el servidor" });
